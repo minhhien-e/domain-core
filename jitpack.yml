@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - cd domain-core && ./gradlew publishToMavenLocal
+  - cd domain-core && chmod +x gradlew && ./gradlew publishToMavenLocal
